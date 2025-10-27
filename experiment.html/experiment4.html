@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel room booking </title>
+</head>
+<body align="center">
+    
+ 
+ <form action="response.html" method="get">
+   <fieldset ALIGN="center">
+     <legend><h2>HOTEL ROOM BOOKING FORM</h2>
+        
+     <label for="Name">full Name:</label>
+     <input type="text"   id="Name" Name="Name" placeholder="enter your fullname" required >
+     <br><br>
+     <label for="email">email</label>
+     <input type="email" id="email" name="email" placeholder="enter your email" required>
+     <br><br>
+     <label for="phone">phone no</label>
+     <input type="tel" id="phone"name=phone placeholder="enter your phone no"required>
+     <br><br>
+     <label for="checkin">check-in Date</label>
+     <input type="date"  id="checkin" name="checkin" required>
+     <br><br>
+     <label for="checkout">check-out Date</label>
+     <input type="date"  id="checkout" name="checkout">
+     <br><br>
+     <label for="guests">no of guests</label>
+     <input type="number" id="guests"name=guests min="1" max="10"  required>
+     <br><br>
+     <label for="room">types of room</label>
+       <select name="room" id="room" required>
+        <option value="single">Single room</option>
+        <option value="duoble">Double room</option>
+        <option value="suite">Suite</option>
+       </select>
+      <br><br>
+     <label for="request"> Special request</label>
+     <textarea name="request" id="request" rows="4" cols="50"></textarea>
+     <br><br>
+     <button type="submit"> book now</button>
+     <button type="reset">reset</button>
+     </legend>
+   </fieldset>
+ </form>
+   <h3 align="center">Name-Shriram saini <br>adm-2025B03110181 <br>Section-ECE-1 </h3>
+</body>
+</html>
